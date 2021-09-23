@@ -1,5 +1,6 @@
 import React from 'react';
 import calculate from '../logic/calculate';
+import CalculatorButton from './calculatorButton';
 
 export default class Calculator extends React.Component {
   constructor(props) {
@@ -20,21 +21,15 @@ export default class Calculator extends React.Component {
     const { total, next } = this.state;
 
     const utils = utilsArray.map((utilLabel, index) => (
-      <button type="button" id={`util-${index}`} key={`${utilLabel}`} className="util" onClick={this.clickAction}>
-        {utilLabel}
-      </button>
+      <CalculatorButton key={utilLabel} label={utilLabel} className="util" index={index} buttonClick={this.clickAction} />
     ));
 
     const digits = digitsArray.map((digitLabel, index) => (
-      <button type="button" key={`${digitLabel}`} id={`digit-${index}`} className="digit" onClick={this.clickAction}>
-        {digitLabel}
-      </button>
+      <CalculatorButton key={digitLabel} label={digitLabel} className="digit" index={index} buttonClick={this.clickAction} />
     ));
 
-    const operators = operatorsArray.map((operatorLabel) => (
-      <button type="button" key={`${operatorLabel}`} className="operator" onClick={this.clickAction}>
-        {operatorLabel}
-      </button>
+    const operators = operatorsArray.map((operatorLabel, index) => (
+      <CalculatorButton key={operatorLabel} label={operatorLabel} className="operator" index={index} buttonClick={this.clickAction} />
     ));
     return (
       <div className="grid">
