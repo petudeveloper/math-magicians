@@ -4,6 +4,10 @@
   --digit-color: #dfdfdf;
 }
 
+button {
+  border: none;
+}
+
 #root {
   display: flex;
   height: 100vh;
@@ -17,7 +21,7 @@
   justify-content: flex-end;
   font-size: 2rem;
   display: flex;
-  padding-right: 10px;
+  padding: 5px 10px 5px 0;
   color: white;
   align-items: center;
 }
