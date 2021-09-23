@@ -2,8 +2,8 @@ import React from 'react';
 import calculate from '../logic/calculate';
 
 export default class Calculator extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       total: 0,
     };
