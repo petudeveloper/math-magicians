@@ -16,7 +16,7 @@ export default class Calculator extends React.Component {
   render() {
     const digitsArray = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0, '.'];
     const utilsArray = ['AC', '+/-', '%'];
-    const operatorsArray = ['/', 'x', '-', '+', '='];
+    const operatorsArray = ['÷', 'x', '-', '+', '='];
     const { total, next } = this.state;
 
     const utils = utilsArray.map((utilLabel, index) => (
