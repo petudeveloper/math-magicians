@@ -5,7 +5,7 @@ const CalculatorButton = ({
 }) => (
   <button
     type="button"
-    id={`${{ className }}-${{ index }}`}
+    id={`${className}-${index}`}
     className={className}
     onClick={buttonClick}
   >
