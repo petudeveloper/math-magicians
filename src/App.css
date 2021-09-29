@@ -15,6 +15,11 @@ button {
   justify-content: center;
 }
 
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
 .result {
   grid-area: 1 / 1 / 1 / span 4;
   background-color: var(--result-color);
@@ -130,3 +135,26 @@ button {
   gap: 1px;
   background-color: #c9c9c9;
 }
+
+
+/* Start Navigation bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 5px;
+}
+
+.mm-logo {
+  width: 80px;
+}
+
+/* End Navigation bar */
