@@ -8,16 +8,8 @@ button {
   border: none;
 }
 
-#root {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
 .App {
   height: 100vh;
-  width: 100vw;
 }
 
 .result {
@@ -137,7 +129,7 @@ button {
 }
 
 
-/* Start Navigation bar */
+/* START Navigation bar */
 
 nav {
   display: flex;
@@ -157,4 +149,22 @@ li {
   width: 80px;
 }
 
-/* End Navigation bar */
+/* END Navigation bar */
+
+/* START calculator page */
+
+.calculator-page-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* END calculator page */
+
+/* START Quote page */
+
+#quote-list {
+  display: block;
+  list-style-type: lower-greek;
+}
+
+/* END Quote page */
