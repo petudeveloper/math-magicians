@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 const Home = () => (
-  <div>
+  <div className="Home">
     <h2>Welcome to tour page!</h2>
     <p>
       <strong>Math magicians</strong>

@@ -10,6 +10,7 @@ button {
 
 .App {
   height: 100vh;
+  padding: 0 5%;
 }
 
 .result {
@@ -129,6 +130,14 @@ button {
 }
 
 
+/* START Home */
+
+.Home {
+  padding-top: 10%;
+}
+
+/* END Home */
+
 /* START Navigation bar */
 
 nav {
@@ -156,15 +165,16 @@ li {
 .calculator-page-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 5%;
 }
 
 /* END calculator page */
 
 /* START Quote page */
 
-#quote-list {
-  display: block;
-  list-style-type: lower-greek;
+.quote {
+  font-size: 1.5em;
+  margin-top: 10%;
 }
 
 /* END Quote page */
