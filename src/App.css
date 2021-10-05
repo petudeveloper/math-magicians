@@ -8,11 +8,9 @@ button {
   border: none;
 }
 
-#root {
-  display: flex;
+.App {
   height: 100vh;
-  align-items: center;
-  justify-content: center;
+  padding: 0 5%;
 }
 
 .result {
@@ -130,3 +128,54 @@ button {
   gap: 1px;
   background-color: #c9c9c9;
 }
+
+/* START Home */
+
+.Home {
+  padding-top: 10%;
+}
+
+/* END Home */
+
+/* START Navigation bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(255, 255, 253);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 5px;
+}
+
+.mm-logo {
+  width: 80px;
+}
+
+/* END Navigation bar */
+
+/* START calculator page */
+
+.calculator-page-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+/* END calculator page */
+
+/* START Quote page */
+
+.quote {
+  font-size: 1.5em;
+  margin-top: 10%;
+}
+
+/* END Quote page */
