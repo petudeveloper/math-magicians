@@ -18,8 +18,8 @@
 
 ## Live Demo
 
-[Live Demo Link (Heroku)](https://math-magicians-petudeveloper.herokuapp.com/)
-[Live Demo Link (Netlify)](https://agitated-colden-fc422d.netlify.app/)
+- [Live Demo Link (Heroku)](https://math-magicians-petudeveloper.herokuapp.com/)
+- [Live Demo Link (Netlify)](https://agitated-colden-fc422d.netlify.app/)
 
 
 ## Getting Started
