@@ -1,7 +1,7 @@
-/* eslint-disable max-len */
 const QuotePage = () => (
   <p className="quote">
-    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.
+    Mathematics is not about numbers, equations, computations, or algorithms:
+    it is about understanding.
     — William Thurston
   </p>
 );
